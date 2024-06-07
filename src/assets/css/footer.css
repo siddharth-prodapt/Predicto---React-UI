@@ -1,0 +1,37 @@
+.footer-div {
+    background-color: #0c7bb3c6;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-link {
+    color: white;
+    cursor: pointer;
+}
+
+.underline-effect {
+    text-decoration: none;
+    position: relative;
+}
+
+.underline-effect::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+
+.underline-effect:hover::after {
+    width: 120%;
+}
+
+.footer-link-div:hover {
+    transform: scale(1.1);
+    transition: transform 0.25s ease-out;
+}

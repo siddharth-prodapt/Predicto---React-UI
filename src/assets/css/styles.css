@@ -1,0 +1,512 @@
+.datetime-table-header-and-row {
+    color: blue !important;
+    cursor: move !important;
+    /* background-color: blue !important; */
+}
+
+.object-table-header-and-row {
+    color: #CB4357 !important;
+    cursor: move !important;
+}
+
+.integer-table-header-and-row {
+    color: black !important;
+    cursor: move !important;
+}
+
+.history-tab-selected {
+    background-color: #0c6fa112 !important;
+}
+
+.history-tab-success {
+    background-color: #007b5e12 !important;
+}
+
+.history-tab-error {
+    background-color: #AF483919 !important;
+}
+
+.history-tab-not-selected {
+    background-color: #00000008 !important;
+}
+
+.history-tab-method-type {
+    background-color: #007b5e35;
+    padding: 0.2em;
+    border-radius: 5px;
+    width: 5em;
+    text-align: center;
+    color: #007B5E;
+    font-weight: bold;
+    border: 0.01em solid #007B5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    position: absolute;
+    overflow: hidden;
+    width: 250px;
+    height: 5em;
+    right: 0em;
+}
+
+#slide {
+    position: absolute;
+    right: -210px;
+    width: 250px;
+    /* height: 30px; */
+    color: #0C6FA1;
+    background: #0C6FA130;
+    transition: 1s;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.wrapper:hover #slide {
+    transition: 1s;
+    right: 0;
+}
+
+
+.file-not-hovered {
+    border-radius: 50% !important;
+    background-color: #D9D9D9 !important;
+    color: #0c6fa1 !important;
+    font-size: 3.5em !important;
+}
+
+.file-hovered {
+    border-radius: 50% !important;
+    background-color: #0c6fa142 !important;
+    color: #008A5B !important;
+    font-size: 3.5em !important;
+    cursor: pointer;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.css-7dv1rb-MuiButtonBase-root-MuiFab-root-MuiSpeedDial-fab {
+    color: white !important;
+    background-color: #0C7BB3 !important;
+    height: 2.5em !important;
+    width: 2.5em !important;
+}
+
+/* .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+    box-shadow: none !important;
+    box-shadow: 0px 0.05em 0.05em -0.03em rgba(0, 0, 0, 0.2), 0em 0.08em 0.010em 0.01em rgba(0, 0, 0, 0.14), 0em 0.03em 0.014em 0.02em rgba(0, 0, 0, 0.12) !important;
+    border: 0.000001em solid #0C7BB3 !important;
+} */
+
+/* REACT TOASTIFY STARTS HERE */
+.Toastify__toast-theme--light {
+    background-color: #ffffff;
+}
+
+/* REACT TOASTIFY ENDS HERE */
+
+
+.sq-my-account {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    background-image: url(../images/my-account-2-bg.jpg);
+}
+
+.circle-my-account {
+    height: 120px;
+    width: 120px;
+    margin-top: -50px;
+    margin-left: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 0.3em;
+    /* background-image: url(../images/home-page.png); */
+}
+
+/* .my-account-page {
+    background-color: rgba(128, 128, 128, 0.374);
+} */
+
+
+/* REACT MUI SELECTED TAB COLOUR STARTS HERE */
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #0C7BB3 !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #0C7BB3 !important;
+}
+
+/* REACT MUI SELECTED TAB COLOUR ENDS HERE */
+
+
+
+/* COMMON CSS STARTS HERE */
+.section-heading {
+    font-size: 2em;
+}
+
+.btn {
+    border-radius: 5px
+}
+
+/* .train-model-btn-dialog {
+    border: 1px #0C7BB3 solid;
+    color: #ffffff;
+    background-color: #0C7BB3;
+}
+
+.train-model-btn-dialog:hover {
+    border: 1px #0C7BB3 solid;
+    color: #0C7BB3;
+} */
+
+.visualize-btn {
+    background-color: #956D35;
+    color: white;
+    width: 100%;
+}
+
+.visualize-btn:hover {
+    background-color: #7f5d2e;
+    color: white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.previous-next-btn-bottom {
+    position: fixed;
+    bottom: 2%;
+    right: 0
+}
+
+/* COMMON CSS ENDS HERE */
+
+
+
+/* PROGRESS BAR AT TOP STARTS HERE*/
+
+.progress-bar-bg {
+    background-color: #9eadbd80;
+    align-items: center;
+}
+
+.progress-bar {
+    height: 1.5em;
+    background-color: #3a485637;
+    border-radius: 10px;
+}
+
+.progress-bar-percentage {
+    background-color: #3A4856;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 10.5px;
+}
+
+.progress-sticky-top {
+    position: sticky;
+    top: 55;
+    width: 100%;
+    background-color: white;
+}
+
+.save-btn-top {
+    font-size: 13px;
+    background-color: #007164;
+    height: 100%;
+    cursor: pointer;
+}
+
+.save-btn-top:hover {
+    font-size: 13px;
+    background-color: #007164;
+    height: 100%;
+    cursor: pointer;
+}
+
+.save-icon {
+    font-size: 20px !important;
+}
+
+/* PROGRESS BAR AT TOP ENDS HERE*/
+
+
+
+/* HEADER BAR STARTS HERE*/
+.logo {
+    margin: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.main-nav {
+    margin-top: 5px;
+}
+
+/* .logo a, */
+.main-nav a {
+    padding: 10px 45px;
+    text-align: center;
+    display: block;
+}
+
+.headbar-active {
+    border-bottom: 3px solid #0C7BB3 !important;
+    color: #0C7BB3 !important;
+}
+
+.headbar-inactive {
+    color: black !important;
+}
+
+.main-nav-auth a {
+    font-size: .99em;
+}
+
+.main-nav-auth a:hover {
+    color: #0C7BB3;
+}
+
+.header-unauth {
+    background-color: #0C7BB3;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 0 0 5px 5px;
+    min-height: 3.4em;
+}
+
+.header-auth {
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 0 0 5px 5px;
+    min-height: 3.4em;
+}
+
+@media (min-width: 769px) {
+
+    .header,
+    .main-nav {
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+
+        .header {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1150px;
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* HEADER BAR ENDS HERE*/
+
+
+
+/* HOME PAGE FIRST UPLOAD SECTION STARTS HERE*/
+.upload-icon-home {
+    color: #0C7BB3;
+    font-size: 4rem !important;
+}
+
+.upload-datasource-btn-home {
+    border-radius: 5px;
+    color: white;
+    background-color: #4B4453;
+    cursor: pointer;
+}
+
+.dotted-blue-box {
+    border: #0C7BB3 2px;
+    border-style: dashed;
+    border-radius: 5px;
+    height: 12rem;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+/* HOME PAGE FIRST UPLOAD SECTION ENDS HERE*/
+
+
+
+/* LOGIN PAGE/REGISTRATION PAGE STARTS HERE*/
+
+.blue-box-login {
+    border: #0C7BB3 1px solid;
+    border-radius: 55px;
+    width: 25rem;
+}
+
+.blue-box-register {
+    border: #0C7BB3 1px solid;
+    border-radius: 55px;
+}
+
+.blue-text-login-page {
+    color: #0C7BB3;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+.login-page-head {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #002653;
+    font-weight: 400;
+}
+
+.login-page-liner {
+    font-size: 15px;
+    color: #002653;
+}
+
+.submit-btn-login {
+    background-color: #AA5A81 !important;
+}
+
+/* LOGIN PAGE/REGISTRATION PAGE STARTS HERE*/
+
+
+
+/* DATA PRE-PROCESSING PAGE STARTS HERE */
+.badge {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 1;
+    /* font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    min-width: 20px;
+    line-height: 1;
+    padding: 0 6px;
+    height: 20px;
+    background-color: #1976d2;
+    color: #fff; */
+
+    color: #1976d2;
+    top: 0;
+    right: 0;
+}
+
+/* DATA PRE-PROCESSING PAGE ENDS HERE */
+
+
+
+/* MODEL SELECT PAGE STARTS HERE */
+.train-btn {
+    background-color: #0C7BB3;
+    color: white;
+}
+
+.train-btn:hover {
+    background-color: #0c6fa1;
+    color: white;
+}
+
+/* MODEL SELECT ENDS STARTS HERE */
+
+
+
+/* IN CASE OF MUI BADGE TO BE USED AND COLOUR TO BE CHANGED, USE THIS CODE */
+/* .css-zza0ns-MuiBadge-badge {
+    background-color: #002653 !important;
+} */
+
+
+/* Commented code Required in case of react sidenav */
+/* .css-19z1ozs-MuiPaper-root-MuiAppBar-root {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.css-1191obr-MuiPaper-root-MuiAppBar-root {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+    border: none !important;
+    background-color: #0C7BB3 !important;
+    color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+} */
